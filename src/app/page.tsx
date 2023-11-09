@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
       <main className="container mx-auto py-10 flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold mb-8 text-cyan-400">Movie Database</h1>
+      <movieSearch/>
       </main>
     </div>
   );

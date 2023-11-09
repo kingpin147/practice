@@ -13,6 +13,7 @@ const movieCard = ({ title, overview, posterPath }: movieCardProps) => {
     <img className="w-full h-64 rounded  mb-4 "  src={imageUrl} alt=""/>
     <h2 className="text-2xl font-bold mb-2">{title}</h2>
     <p className="text-sm  text-gray-500">{overview.substring(0,150)}</p>
+    </div>
 };
 
 export default movieCard;
